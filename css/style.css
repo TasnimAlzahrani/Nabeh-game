@@ -1,0 +1,656 @@
+* {
+    font-family: "FF Hekaya Light";
+    padding: 0;
+}
+
+.user-image {
+    width: 2vw;
+    height: 2vw;
+}
+
+.arrow {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    z-index: 1000;
+}
+
+.containerArrow {
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    z-index: 1000;
+}
+
+.containerArrow img {
+    left: 15%;
+}
+
+.containerArrow p {
+    position: relative;
+    font-size: 20px;
+    padding-top: 30%;
+}
+
+.vector1 {
+    position: absolute;
+    right: 0vmin;
+    top: -15vmin;
+}
+
+.vector2 {
+    position: absolute;
+    width: 45vmin;
+    left: -15vmin;
+    bottom: 0vmin;
+}
+
+.logo {
+    position: absolute;
+    width: 150px;
+    z-index: 1000;
+}
+
+.boyHead {
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    top: 10%;
+    left: 42%;
+}
+
+.editPic {
+    position: absolute;
+    width: 30px;
+    left: 42%;
+    top: 30%;
+}
+
+.nameOfTheUser {
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    top: -470%;
+}
+
+.editicon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 20px;
+    top: -250%;
+}
+
+.line {
+    position: absolute;
+    width: 450px;
+    height: 12px;
+    top: 45%;
+    left: 32%;
+    background: rgba(240, 204, 204, 0.54);
+}
+
+.line1 {
+    position: absolute;
+    width: 450px;
+    height: 12px;
+    top: 60%;
+    left: 32%;
+    background: rgba(240, 204, 204, 0.54);
+}
+
+.line2 {
+    position: absolute;
+    width: 450px;
+    height: 12px;
+    top: 75%;
+    left: 32%;
+    background: rgba(240, 204, 204, 0.54);
+}
+
+.button1 {
+    position: absolute;
+    padding-top: 7vmin;
+    padding-left: 29vmin;
+    left: 33%;
+    top: 74%;
+}
+
+.button1 button {
+    position: absolute;
+    background: rgba(208, 228, 227, 0.79);
+    border: none;
+    color: rgb(57, 57, 57);
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    left: 20%;
+}
+
+.edit {
+    margin-left: 90%;
+}
+
+
+/*---------------------rank--------------------*/
+
+#humanHead {
+    position: absolute;
+    width: 140px;
+    height: 150px;
+    top: 8%;
+    left: 44%;
+    z-index: 2;
+}
+
+#humanBody {
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    top: 25%;
+    left: 33%;
+}
+
+.pinkContainer {
+    position: absolute;
+    width: 819px;
+    height: 656px;
+    left: 290px;
+    top: 320px;
+    background: rgba(240, 204, 204, 0.48);
+    backdrop-filter: blur(40px);
+    border-radius: 16px;
+    z-index: 2;
+}
+
+.table-rank {
+    width: 75%;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: white;
+}
+
+.table-rank th {
+    font-size: 1.6em;
+    color: rgb(97, 66, 115);
+}
+
+.table-rank td {
+    font-size: 1.3em;
+}
+
+.vector3 {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+.vector4 {
+    position: absolute;
+    top: 800px;
+}
+
+
+/*---------------------Amin List -------------------*/
+
+.leftArrow {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 3;
+}
+
+.adminLogo {
+    position: absolute;
+    width: 150px;
+    right: 3%;
+}
+
+.bigWhiteBox {
+    position: absolute;
+    width: 895px;
+    height: 590px;
+    left: 260px;
+    top: 120px;
+    background: rgba(213, 236, 226, 0.69);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    z-index: 3;
+}
+
+.adminTable-box h1 {
+    color: rgb(87, 87, 87);
+    left: 40%;
+    position: relative;
+}
+
+.deleteAd {
+    position: absolute;
+    top: 92%;
+    left: 90%;
+    border: none;
+    background: rgba(213, 236, 226, 0.438);
+}
+
+.deleteAd img {
+    width: 150%;
+}
+
+.adminProfile {
+    position: absolute;
+    width: 40px;
+    top: 10%;
+    left: 80%;
+}
+
+.nameOfAdmin {
+    position: relative;
+    top: 34%;
+    left: 40%;
+}
+
+.addAdmin {
+    position: absolute;
+    width: 10px;
+    top: 90%;
+    left: 5%;
+    outline: none;
+    border: none;
+    background: rgba(213, 236, 226, 0.438);
+    margin-bottom: 10%;
+}
+
+.bigWhiteBox p {
+    position: absolute;
+    top: 88%;
+    left: 11%;
+    font-size: 140%;
+}
+
+.Vector5 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+
+/*---------------------add Admin-------------------*/
+
+#title {
+    position: relative;
+    font-size: 150%;
+    top: 2%;
+    left: 25%;
+}
+
+.insideBox {
+    position: absolute;
+    width: 650px;
+    height: 450px;
+    left: 120px;
+    top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.message-print-addAdmin {
+    position: absolute;
+    display: inline;
+    top: 450px;
+    left: 45%;
+    color: red;
+    z-index: 8;
+    text-align: center;
+}
+
+.content1 p {
+    position: absolute;
+    top: 10%;
+    left: 61%;
+    font-size: 180%;
+}
+
+.content1 input {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 20%;
+    top: 78px;
+    background: rgba(241, 241, 241, 0.73);
+    border: 1px solid #B1B1B1;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.content2 p {
+    position: absolute;
+    top: 35%;
+    left: 61%;
+    font-size: 180%;
+}
+
+.content2 input {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 20%;
+    top: 42%;
+    background: rgba(241, 241, 241, 0.73);
+    border: 1px solid #B1B1B1;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.button2 {
+    position: absolute;
+    padding-top: 40vmin;
+    padding-left: 29vmin;
+    left: 30%;
+}
+
+.button2 button {
+    position: absolute;
+    background: #d2bfd99f;
+    border: none;
+    color: rgb(57, 57, 57);
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    left: 24%;
+    margin-top: 10%;
+}
+
+
+/*---------------------Sign In-------------------*/
+
+.Vector6 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+#message-print {
+    position: absolute;
+    display: inline;
+    top: 240px;
+    left: 53%;
+    color: red;
+    z-index: 3;
+}
+
+.contentSignIn h1 {
+    position: absolute;
+    font-size: 300%;
+    color: #434343;
+    top: 25%;
+    left: 49%;
+}
+
+.lineSignIn {
+    position: absolute;
+    width: 450px;
+    height: 12px;
+    top: 50%;
+    left: 40%;
+    background: rgba(240, 204, 204, 0.54);
+}
+
+.lineSignIn3 {
+    position: absolute;
+    width: 450px;
+    height: 12px;
+    top: 70%;
+    left: 40%;
+    background: rgba(240, 204, 204, 0.54);
+}
+
+.mailIcon {
+    position: absolute;
+    width: 25px;
+    top: -265%;
+    left: 92%;
+}
+
+.textSignIn {
+    position: absolute;
+    top: -450%;
+    left: 62%;
+    font-size: 145%;
+    color: #A19D9D;
+}
+
+.lineSignIn1 {
+    position: absolute;
+    width: 450px;
+    height: 12px;
+    top: 65%;
+    left: 40%;
+    background: rgba(240, 204, 204, 0.54);
+}
+
+#noAccount {
+    position: absolute;
+    cursor: pointer;
+    font-size: 120%;
+    left: 30%;
+    top: 80%;
+}
+
+#noAccount a {
+    text-decoration: none;
+    color: #2B88DE;
+}
+
+.button3 {
+    position: absolute;
+    padding-top: 12vmin;
+    padding-left: 25vmin;
+    left: 18%;
+}
+
+.button3 button {
+    position: absolute;
+    border: none;
+    color: rgb(57, 57, 57);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5%;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    left: 50%;
+    background: rgba(208, 228, 227, 0.79);
+    border-radius: 10px;
+}
+
+#google {
+    position: absolute;
+    width: 30px;
+    top: 1400%;
+    left: 40%;
+}
+
+#facebook {
+    position: absolute;
+    width: 40px;
+    top: 1378%;
+    left: 50%;
+}
+
+#joyHead {
+    position: absolute;
+    width: 200px;
+    left: 3%;
+    top: 4%;
+    z-index: 6;
+}
+
+#bodyJoy {
+    position: absolute;
+    width: 470px;
+    left: 0%;
+    top: 25%;
+    z-index: 6;
+}
+
+.admin-testbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 390px;
+    height: 25px;
+    top: -27px;
+    left: 3%;
+    border: 1px solid #FFFFFF;
+    text-align: right;
+}
+
+.admin-testbox::placeholder {
+    font-size: 18px;
+}
+
+.admin-testbox:focus {
+    outline: none;
+}
+
+table {
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: white;
+}
+
+.heading th {
+    padding: 10px 0;
+}
+
+.data {
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+
+.data td {
+    padding: 15px 0;
+}
+
+#btn {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #d56c60;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+#btn:hover {
+    background-color: #656464;
+}
+
+.panel_heading {
+    color: rgb(87, 87, 87);
+    left: 40%;
+    position: relative;
+}
+
+
+/*------------------edit profile------------------*/
+
+.textusernameEdit {
+    position: absolute;
+    width: 445px;
+    height: 30px;
+    left: 32%;
+    top: 260px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    font-size: larger;
+}
+
+.message-print-profile {
+    position: absolute;
+    display: inline;
+    top: 230px;
+    left: 45%;
+    color: red;
+    z-index: 3;
+}
+
+.editProfileCon {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+}
+
+.textpasswordEdit {
+    position: absolute;
+    width: 445px;
+    height: 30px;
+    left: 32%;
+    top: 355px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    font-size: larger;
+}
+
+.textpasswordEdit:focus {
+    outline: white;
+}
+
+.textusernameEdit:focus {
+    outline: white;
+}
+
+.line4 {
+    position: absolute;
+    width: 450px;
+    height: 12px;
+    top: 65%;
+    left: 32%;
+    background: rgba(240, 204, 204, 0.54);
+}
+
+.save {
+    position: absolute;
+    background: rgba(208, 228, 227, 0.79);
+    border: none;
+    color: rgb(57, 57, 57);
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 10px;
+    left: 36%;
+    top: 50px;
+}
+
+#editText {
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    color: #6a6969;
+}

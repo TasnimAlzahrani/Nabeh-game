@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabeh</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+<style>
+    * {
+        font-family: "FF Hekaya Light";
+        padding: 0;
+    }
+    
+    .firstPage {
+        background-color: #D0E4E3;
+        overflow: hidden;
+    }
+    
+    .welocoming {
+        text-shadow: 2px 2px #b3d6cc;
+        position: relative;
+        /* margin-right: 20%; */
+        color: white;
+        font-size: 7vw;
+        font-weight: 600;
+    }
+    
+    .nabeh-login {
+        width: 50vw;
+        position: fixed;
+        left: 2vw;
+        top: -2vw;
+        z-index: 1;
+    }
+    
+    .logo {
+        width: 8%;
+        position: absolute;
+        right: 90%;
+    }
+    
+    .login-div {
+        position: relative;
+        margin: auto;
+        /* width: 50%; */
+        text-align: center;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .firstPage-btn {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        position: relative;
+        border: none;
+        width: 200px;
+        height: 50px;
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+        display: block;
+        /* margin-left: 20%; */
+        border-radius: 5px;
+    }
+    
+    .login-btn {
+        color: #D9CBE6;
+    }
+    
+    .login-btn:hover {
+        background-color: #D9CBE6;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .signup-btn {
+        margin-top: 20px;
+        color: #F0CCCC;
+    }
+    
+    .signup-btn:hover {
+        background-color: #F0CCCC;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .vector1 {
+        position: absolute;
+        width: 60%;
+        top: 190px;
+        right: -250px;
+    }
+    
+    .start-div {
+        padding-top: 5vw;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        /* width: 50%; */
+        /* background-color: cadetblue; */
+        display: table;
+    }
+    
+    .inner {
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        /* width: 50%; */
+        /* background-color: cadetblue; */
+        display: table;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+</style>
+
+
+<body class="firstPage">
+    <img class="adminLogo" src="../image/image 4.png" alt="">
+
+
+
+    <div class="start-div">
+        <p class="welocoming">!أهلًا بك في نبيه</p>
+
+        <div class="inner">
+            <img class="nabeh-login" src="../images/nabeh.png">
+            <a href="sign-in-user.php">
+                <button class="firstPage-btn login-btn" type="button">
+                    تسجيل الدخول
+                </button>
+            </a>
+            <a href="signup.html">
+                <button class="firstPage-btn signup-btn" type="button">
+                    إنشاء حساب
+                </button>
+            </a>
+        </div>
+        <!-- <div class="login-div">
+            <div>
+                <img class="nabeh-login" src="../images/nabeh.png">
+            </div>
+        </div> -->
+    </div>
+
+
+
+    <img class="vector1" src="../images/vector.png">
+</body>
+
+</html>

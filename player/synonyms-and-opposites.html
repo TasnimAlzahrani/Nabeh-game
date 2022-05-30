@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة المرادفات والأضداد</title>
+    <link rel="stylesheet" href="../css/grammar.css">
+    <link rel="stylesheet" href="../css/synonyms-and-opposites.css">
+    <script src="../javascript/synonyms-and-opposites.js" async></script>
+</head>
+
+<body>
+    <main>
+
+        <div class="main-page">
+            <!-- HEADER -->
+            <svg id="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#F5D264"
+                    d="M70,-31.7C83.2,-17.5,81.3,14.2,67.1,38.7C52.9,63.3,26.5,80.8,9,75.6C-8.4,70.4,-16.9,42.5,-24.7,21.6C-32.5,0.7,-39.7,-13.2,-35.4,-22.2C-31.2,-31.2,-15.6,-35.3,6.4,-39C28.4,-42.7,56.8,-45.9,70,-31.7Z"
+                    transform="translate(100 100)" />
+            </svg>
+
+
+            <h1 id="title">يريد نبيه شراء دراجة جديدة لذا عليه أن:</h1>
+
+            <div class="header">
+
+                <p id="point">112</p>
+                <div class="element">
+                    <div>
+                        <img class="coins" src="../images/coins.png">
+                        <p id="coins-text">النقاط</p>
+                    </div>
+                </div>
+
+                <div class="element">
+                    <div>
+                        <img class="hint" style="margin-top:0%;height: 100%; width: 35%;" src="../images/medal.png">
+                        <p id="hint-text">المرحلة</p>
+                        <span id="level">1</span>
+                    </div>
+                </div>
+
+                <div class="element">
+
+                    <button class="hint-btn" style="background-color: transparent; border-color: transparent;">
+                        <img class="hint" src="../images/light-bulb.png">
+                        <p id="hint-text">تلميح</p>
+                    </button>
+
+                </div>
+
+                <div class="element">
+                    <div class="img">
+                        <img class="logo" src="../images/Log2.png">
+                    </div>
+                </div>
+            </div>
+
+            <!-- QUESTIONS AREA -->
+
+            <div id="submit" onclick="checkAnswer()">
+                <button type="submit" id="submit-button">
+                    التحقق من الجواب
+                </button>
+            </div>
+
+
+            <div class="notes">
+                <img img style="position:relative; height: 100%; filter: saturate(30%) hue-rotate(120deg)" src="../images/notes.png">
+            </div>
+            <div class="hide-details"></div>
+            <!-- ANSWER AREA -->
+
+            <div draggable="true" class="option" id="1">
+                <div class="option1-1 options"></div>
+                <div class="option1-2 options">
+                    <div class="text">ينفق</div>
+                </div>
+            </div>
+
+            <div draggable="true" class="option" id="2">
+                <div class="option2-1 options"></div>
+                <div class="option2-2 options">
+                    <div class="text">يقتصد</div>
+                </div>
+            </div>
+
+            <div draggable="true" class="option" id="3">
+                <div class="option3-1 options"></div>
+                <div class="option3-2 options">
+                    <div class="text">يوفر</div>
+                </div>
+            </div>
+
+            <div draggable="true" class="option" id="4">
+                <div class="option4-1 options"></div>
+                <div class="option4-2 options">
+                    <div class="text">يبذر</div>
+                </div>
+            </div>
+
+            <div draggable="true" class="option" id="5">
+                <div class="option5-1 options"></div>
+                <div class="option5-2 options">
+                    <div class="text">يصرف</div>
+                </div>
+            </div>
+
+            <div draggable="true" class="option" id="6">
+                <div class="option6-1 options"></div>
+                <div class="option6-2 options">
+                    <div class="text">يدخر</div>
+                </div>
+            </div>
+
+            <!-- HINT WINDOW -->
+            <div id="hint-page">
+                <div class="hint-window">
+                    <span class="close close-btn">&times;</span>
+                    <p class="headline">إليك تلميحًا</p>
+                    <p class="hint-content">يجب عليه أن يحتفظ بالمال لوقت الحاجة</p>
+                </div>
+            </div>
+
+            <!-- NEXT QUESTION WINDOW -->
+            <div id="next-page">
+                <div class="hint-window next-window">
+                    <span class="close close-btn">&times;</span>
+                    <p class="headline">إجابة صحيحة!</p>
+                    <button class="hint-content next-content" disabled="true">الانتقال للسؤال التالي</button>
+                </div>
+            </div>
+
+
+    </main>
+
+    <script type="text/javascript">
+        var page = document.getElementById("hint-page");
+
+        var trigger = document.getElementsByClassName("hint-btn")[0];
+
+        var closeWindow = document.getElementsByClassName("close")[0];
+
+        var nextPage = document.getElementById("next-page");
+
+        var closeNextWindow = document.getElementsByClassName("close")[1];
+
+
+        trigger.onclick = function() {
+            page.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        closeWindow.onclick = function() {
+            page.style.display = "none";
+
+        }
+
+        window.onclick = function(event) {
+            if (event.target == page) {
+                page.style.display = "none";
+            }
+        }
+
+        closeNextWindow.onclick = function() {
+            nextPage.style.display = "none";
+
+        }
+
+        window.onclick = function(event) {
+            if (event.target == page) {
+                nextPage.style.display = "none";
+            }
+        }
+    </script>
+    <a href="main-menu.php">
+        <button id="go-back">العودة للرئيسية</button>
+    </a>
+</body>
+
+</html>

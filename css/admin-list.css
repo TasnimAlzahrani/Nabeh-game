@@ -1,0 +1,128 @@
+* {
+    font-family: "FF Hekaya Light";
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.panel_heading {
+    color: rgb(87, 87, 87);
+    left: 40%;
+    position: relative;
+}
+
+.leftArrow {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 3;
+}
+
+.adminLogo {
+    position: absolute;
+    width: 150px;
+    right: 3%;
+}
+
+.bigWhiteBox {
+    justify-content: center;
+    margin-bottom: 5vw;
+    position: absolute;
+    width: 70%;
+    /* height: 590px; */
+    left: 200px;
+    top: 120px;
+    background: rgba(213, 236, 226, 0.69);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    z-index: 3;
+}
+
+.bigWhiteBox:after {
+    position: absolute;
+    content: "";
+    bottom: -40px;
+    height: 40px;
+    width: 1px;
+}
+
+.deleteAdmin {
+    position: absolute;
+    top: 78%;
+    left: 5%;
+}
+
+.adminProfile {
+    position: absolute;
+    width: 40px;
+    top: 20%;
+    left: 90%;
+}
+
+.nameOfAdmin {
+    position: relative;
+    top: 50%;
+}
+
+.bigWhiteBox p {
+    font-size: 140%;
+}
+
+.Vector5 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.admins-section {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    width: 80%;
+}
+
+.admin {
+    position: relative;
+    width: 20%;
+    margin: auto;
+    cursor: pointer;
+}
+
+#addAdmin {
+    /* position: absolute; */
+    width: 40px;
+    background-color: black;
+}
+
+.card {
+    /* position: absolute; */
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.add-new {
+    /* position: relative; */
+    /* background-color: aquamarine; */
+    margin-top: 5%;
+}
+
+#add-text {
+    position: relative;
+    /* background-color: blue; */
+}
+
+input#image-button {
+    font-size: 140%;
+    border: none;
+    background: url('../images/add 1.png') no-repeat top left;
+    padding-left: 5vw;
+    margin-left: 5%;
+    height: 4vw;
+}
