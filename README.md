@@ -31,8 +31,8 @@ Nabeh “نبيه “is a game that helps users to improve their Arabic in a fun
 ## Technologies Used
 * HTML
 * CSS
-* JavaScript
-* PHP
+* vanilla JavaScript
+* vanilla PHP
 
 # Acknowledgments
 This is a group project with the amazing team [Jumanah AlWafi](https://github.com/JumanahAlwafi), [Rawan Abdu](https://github.com/RawanAbduEssa), [Wojood AlMatrafi](https://github.com/WojoodQ), and [Jumanah Mutahar](https://github.com/JumanahMutahhar).
