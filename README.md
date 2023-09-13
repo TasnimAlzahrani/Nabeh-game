@@ -26,21 +26,7 @@ Nabeh “نبيه “is a game that helps users to improve their Arabic in a fun
 <img src="https://github.com/TasnimAlzahrani/Nabeh-game/assets/97178478/321640db-b225-4c1b-9321-bc9de0e17721" width="60%"/>
 <!--![nabeh 5](https://github.com/TasnimAlzahrani/Nabeh-game/assets/97178478/321640db-b225-4c1b-9321-bc9de0e17721)-->
 <img src="https://github.com/TasnimAlzahrani/Nabeh-game/assets/97178478/6c6dd795-beb4-4bd2-8484-1af159f246b6" width="60%"/>
-<!--![nabeh 6](https://github.com/TasnimAlzahrani/Nabeh-game/assets/97178478/6c6dd795-beb4-4bd2-8484-1af159f246b6)
-
-# Installation
-1. Clone the repository: git clone https://github.com/your-username/your-repo.git
-2. Navigate to the project directory: cd your-repo
-3. Start a local web server: php -S localhost:8000
-4. Open your web browser and visit http://localhost:8000
-   
-# Usage
-1. Sign up for an account or log in if you already have one.
-2. Choose a subject category and start playing.
-3. Complete the interactive activities to earn points and progress through the levels.
-4. Monitor your progress on the leaderboard and compare scores with other players.
-
--->
+<!--![nabeh 6](https://github.com/TasnimAlzahrani/Nabeh-game/assets/97178478/6c6dd795-beb4-4bd2-8484-1af159f246b6)-->
 # Technologies Used
 * HTML
 * CSS
