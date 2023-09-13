@@ -27,7 +27,8 @@ Nabeh “نبيه “is a game that helps users to improve their Arabic in a fun
 <!--![nabeh 5](https://github.com/TasnimAlzahrani/Nabeh-game/assets/97178478/321640db-b225-4c1b-9321-bc9de0e17721)-->
 <img src="https://github.com/TasnimAlzahrani/Nabeh-game/assets/97178478/6c6dd795-beb4-4bd2-8484-1af159f246b6" width="60%"/>
 <!--![nabeh 6](https://github.com/TasnimAlzahrani/Nabeh-game/assets/97178478/6c6dd795-beb4-4bd2-8484-1af159f246b6)-->
-# Technologies Used
+
+## Technologies Used
 * HTML
 * CSS
 * JavaScript
